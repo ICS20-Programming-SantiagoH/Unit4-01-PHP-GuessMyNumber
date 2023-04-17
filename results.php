@@ -13,12 +13,12 @@ $generator = rand(MIN,MAX);
 
 // If statments
 if ($userGuess == $generator) {
-  echo 'You have correctly guessed my number';
+  echo 'You have correctly guessed my number.';
 
 }
 
 if ($userGuess != $generator) {
-  echo 'You have incorectly guessed my number, try again';
+  echo 'You have incorectly guessed my number, try again.';
 
 }
 

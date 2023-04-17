@@ -23,7 +23,8 @@ echo "<h3>Please enter your Numbher in Between 1 and 6</h3>";
     <form action="./results.php" method="post" target="results">
       <label for="userGuess"> Please entre the Number you Guess</label>
       <input type="number" id="userGuess" placeholder="Ex. 3" step="1" min="1" max="6" name="userGuess"><br><br>
-      <input type="submit" value="calculate"> </form>
+      <input type="submit" value="Calculate"> 
+    </form>
     
     <!-- iframe for the results to show on the web page. -->
     <iframe id="results" name="results">			
